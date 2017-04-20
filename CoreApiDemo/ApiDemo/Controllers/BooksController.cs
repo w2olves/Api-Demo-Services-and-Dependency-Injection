@@ -46,9 +46,10 @@ namespace ApiDemo.Controllers
         }
 
 
-        [HttpPost("{authorId}/book")]
+        [HttpPost("{authorId}/books", Name = "CreateBook")]
         public IActionResult CreateBook(int authorId, [FromBody] BooksForCreationDto book)
         {
+            //Validations
             if (book == null)
             {
                 return BadRequest();
@@ -97,7 +98,7 @@ namespace ApiDemo.Controllers
         
 
 
-        [HttpPatch("{authorId}/book/{id}", Name = "UpdateBook")]
+        [HttpPatch("{authorId}/books/{id}", Name = "UpdateBook")]
         public IActionResult UpdateBook(int authorId, int id, [FromBody] JsonPatchDocument<BooksForCreationDto> patchDocument)
         {
             if (patchDocument == null)
@@ -146,7 +147,7 @@ namespace ApiDemo.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{authorId}/book/{id}", Name = "UpdateBook")]
+        [HttpDelete("{authorId}/books/{id}", Name = "UpdateBook")]
         public IActionResult DeleteBook(int authorId, int id)
         {
          

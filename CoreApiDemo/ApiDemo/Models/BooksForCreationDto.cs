@@ -10,8 +10,11 @@ namespace ApiDemo.Models
     {
         [Required(ErrorMessage = "You should provide a book name")]
         [MaxLength(50)]
+        [MinLength(1)]
         public string Name { get; set; }
+
         [MaxLength(1000)]
         public string Description { get; set; }
+
     }
 }
