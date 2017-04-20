@@ -9701,10 +9701,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12 - Manipulating Resources\\CoreApiDemo\\ApiDemo\\ApiDemo.csproj",
+      "projectUniqueName": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-Manipulating-Resources\\CoreApiDemo\\ApiDemo\\ApiDemo.csproj",
       "projectName": "ApiDemo",
-      "projectPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12 - Manipulating Resources\\CoreApiDemo\\ApiDemo\\ApiDemo.csproj",
-      "outputPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-12 - Manipulating Resources\\CoreApiDemo\\ApiDemo\\obj\\",
+      "projectPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-Manipulating-Resources\\CoreApiDemo\\ApiDemo\\ApiDemo.csproj",
+      "outputPath": "C:\\Users\\AC17435\\Source\\Repos\\ApiDemo-Manipulating-Resources\\CoreApiDemo\\ApiDemo\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
