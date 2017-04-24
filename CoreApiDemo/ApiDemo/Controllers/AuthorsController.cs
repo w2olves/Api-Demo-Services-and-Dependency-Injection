@@ -62,7 +62,7 @@ namespace ApiDemo.Controllers
                 return BadRequest(ModelState);
             }
 
-           
+
             //Demo Purpose will be improved
             //Get Max Book Id
             var maxAuthorId = AuthorsDatastore.Current.Authors.Select(a => a.Id).Max();
@@ -80,12 +80,8 @@ namespace ApiDemo.Controllers
 
             AuthorsDatastore.Current.Authors.Add(newAuthor);
 
-            //return Ok(author.Books);
-
             //For Post the advised response is 201 Created
-              return CreatedAtRoute("GetAuthor", new { id = newAuthor.Id }, newAuthor);
-
-          //  return Ok(newAuthor);
+            return CreatedAtRoute("GetAuthor", new {id = newAuthor.Id}, newAuthor);
 
         }
     }
