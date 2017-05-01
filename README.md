@@ -1,2 +1,2 @@
-# ApiDemo-Manipulating-Resources
-This example shows how we manipulate resources
+# Api-Demo-Services-and-Dependency-Injection
+This example shows Aspnet core' built in support for dependency injection
