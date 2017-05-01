@@ -25,7 +25,16 @@ namespace ApiDemo.Controllers
         public IActionResult GetAuthors()
         {
 
-            return Ok(AuthorsDatastore.Current.Authors);
+            try
+            {
+                return Ok(AuthorsDatastore.Current.Authors);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogCritical(ex.ToString());
+                _logger.LogInformation("Unable to retrieve authors");
+                return StatusCode(500, "Error We couldnt retrieve authors");
+            }
         }
 
         [HttpGet("{id}", Name = "GetAuthor")]
@@ -100,6 +109,7 @@ namespace ApiDemo.Controllers
                 _logger.LogCritical($"Exception while getting the Author {author}", ex);
                 return StatusCode(500, "A problem happened while handling your request");
             }
+
 
         }
     }
