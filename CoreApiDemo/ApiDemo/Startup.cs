@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Logging.Abstractions;
+using NLog.Extensions.Logging;
+using NLog.Web;
 
 namespace ApiDemo
 {
@@ -64,7 +67,12 @@ namespace ApiDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddConsole();
+            loggerFactory.AddDebug();
+       // loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider());
+            loggerFactory.AddNLog();
             app.UseMvc();
+
         }
     }
 }

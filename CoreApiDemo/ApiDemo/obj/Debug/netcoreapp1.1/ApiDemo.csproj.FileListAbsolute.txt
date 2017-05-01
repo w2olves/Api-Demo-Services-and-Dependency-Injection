@@ -16,3 +16,12 @@ C:\Users\AC17435\Source\Repos\ApiDemo-Manipulating-Resources\CoreApiDemo\ApiDemo
 C:\Users\AC17435\Source\Repos\ApiDemo-Manipulating-Resources\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.AssemblyInfo.cs
 C:\Users\AC17435\Source\Repos\ApiDemo-Manipulating-Resources\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.dll
 C:\Users\AC17435\Source\Repos\ApiDemo-Manipulating-Resources\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.pdb
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.deps.json
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.json
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.runtimeconfig.dev.json
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.dll
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\bin\Debug\netcoreapp1.1\ApiDemo.pdb
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.csprojResolveAssemblyReference.cache
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.AssemblyInfo.cs
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.dll
+C:\Users\AC17435\Source\Repos\Api-Demo-Services-and-Dependency-Injection\CoreApiDemo\ApiDemo\obj\Debug\netcoreapp1.1\ApiDemo.pdb
